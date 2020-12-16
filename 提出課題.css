@@ -64,16 +64,17 @@ footer {
     display: block;
     width: 100%;
   }
-}
-.step {
-  margin: 20px auto;
-  width: 90%;
-}
-.step:last-child {
-  margin-right: 20px;
-}
-.step-image1,
-.step-image2,
-.step-image3 {
-  height: 150px;
+
+  .step-box {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .step-box:last-child {
+    margin: 0 auto;
+  }
+  .step-image1,
+  .step-image2,
+  .step-image3 {
+    height: 150px;
+  }
 }
